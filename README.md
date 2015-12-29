@@ -3,6 +3,8 @@
 This is a simple console application. 
 Stimulates behavior of free falling body, without air resistance.
 Used WinAPI for showing of a simulation result.
+
+**[Binary files](https://github.com/MerlinDS/Ubisoft-test/releases/tag/v0.1)**
  
 After input of user command, app will open two separated thread:
 
@@ -12,7 +14,7 @@ After input of user command, app will open two separated thread:
 Application will create log file with debug information.
 
 [Component/Entity System](http://entity-systems.wikidot.com/) is a base concept of application structure.
-But for this test, parameters saves directly into entities, not into components. 
+But for this test, parameters saves directly into entities, not into components.
 
 ##Launch arguments
 
