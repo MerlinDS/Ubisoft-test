@@ -8,13 +8,21 @@ Used WinAPI for showing of a simulation result.
  
 After input of user command, app will open two separated thread:
 
-    * For simulation calculations.
-    * For result drawing.
+* For simulation calculations.
+* For result drawing.
     
 Application will create log file with debug information.
 
-[Component/Entity System](http://entity-systems.wikidot.com/) is a base concept of application structure.
-But for this test, parameters saves directly into entities, not into components.
+    [Component/Entity System](http://entity-systems.wikidot.com/) is a base concept of application structure.
+    But for this test, parameters saves directly into entities, not into components.
+
+##Project structure
+
+Project contains two folder:
+ 
+* client - source code of the client.
+* lib - source code of the library that includes to client. Contains Abstract class for all systems in application.
+ Entity structure, simulation system and simulation manager (World). 
 
 ##Launch arguments
 
